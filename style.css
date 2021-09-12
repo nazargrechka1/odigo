@@ -1,40 +1,45 @@
 body {
-	margin: 0;
-  background: rgba(255, 255, 255, 0.651); 
+  margin: 0;
+  background: rgba(255, 255, 255, 0.651);
   position: relative;
 }
+
+
+
 .title {
-	margin-left:45px ;
-	margin-bottom: 0;
+  padding-top: 2 5px;
+  padding-left: 15px;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 20px;
+  font-size: 36px;
+  margin-bottom: 50px;
 }
+
 .inner {
-	font-family: "Trebuchet MS", sans-serif;
-  margin-top: 45px;
-  margin-bottom: 60px;
-  margin-left: 45px;
-  margin-right: 45px;
+  font-family: "Trebuchet MS", sans-serif;
+  margin-right: 20px;
+  padding: 20px;
+  max-width: 300px;
 }
+
 .heading {
   font-size: 20px;
   font-family: "Trebuchet MS", sans-serif;
   font-weight: 600;
 }
+
 .text {
-  font-size: 13px;
-	font-family: "Trebuchet MS", sans-serif; 
+  font-size: 16px;
+  font-family: "Trebuchet MS", sans-serif;
   font-weight: 500;
 }
+
 a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(27, 149, 230);
 }
 
-.block {
-  background-color: cornsilk;
-}
+
 body::after {
   position: absolute;
   display: block;
@@ -49,13 +54,36 @@ body::after {
 
 .container {
   max-width: 1200px;
+  padding: 0px 0px 100px 0px;
   margin: 0 auto;
+  background-color: cornsilk;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
+
 .block {
+
   display: flex;
+  flex-wrap: wrap;
 }
-img {
+
+.img {
   margin-bottom: 10px;
   width: 50px;
   height: 50px;
+}
+
+.url {
+  display: flex;
+  width: 100%;
+}
+
+.shape {
+  width: 30px;
+  height: 20px;
+}
+
+.bkg {
+  width: 2000px;
+  height: 1400px;
 }
